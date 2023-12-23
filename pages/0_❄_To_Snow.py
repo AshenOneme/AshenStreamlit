@@ -5,8 +5,8 @@ import numpy as np
 
 st.set_page_config(page_title="宝儿，这是我画给你的圣诞树嘿嘿嘿！圣诞节快乐哦！", page_icon="❄")
 
-st.markdown("# To Snow")
-st.sidebar.header("To Snow")
+st.markdown("# 宝儿画给宝儿的圣诞树🐷🐷🐷")
+st.sidebar.header("宝儿，这是我画给你的圣诞树嘿嘿嘿！圣诞节快乐哦！")
 
 b=np.linspace(0,2*np.pi,121)
 
