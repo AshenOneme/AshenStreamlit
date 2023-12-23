@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from bokeh.plotting import figure
 from numpy import trapz
 import matplotlib.pyplot as plt
 import plotly.express as px
