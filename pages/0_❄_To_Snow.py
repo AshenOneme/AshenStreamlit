@@ -48,5 +48,5 @@ Lay=go.Layout(barmode="group",width=960,height=600, scene=dict(bgcolor="white",x
 yaxis=dict(backgroundcolor="pink"),zaxis=dict(backgroundcolor="white"),camera=dict(projection=dict(type="orthographic"))))
 
 Fig=go.Figure(data=[Data1,Data2,Data3,Data4,Data7,Data8],layout=Lay)
-Fig.update_layout(autosize=False,width=800,height=1200)
+Fig.update_layout(autosize=True)
 st.plotly_chart(Fig)
